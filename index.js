@@ -1,10 +1,7 @@
-"use strict";
+import Png from "png-js";
+import { encode } from "jpeg-js";
 
-const Png = require("png-js");
-const Jpeg = require("jpeg-js");
-const pify = require("pify");
-
-module.exports = opts => {
+export default opts => {
     opts = Object.assign({quality: 50}, opts);
 
     if (!Number.isInteger(opts.quality)) {
@@ -18,6 +15,6 @@ module.exports = opts => {
     return buf => {
         let png = new Png(buf);
         return new Promise(resolve => png.decode(resolve))
-        .then(data => Jpeg.encode({data, width: png.width, height: png.height}, opts.quality).data);
+        .then(data => encode({data, width: png.width, height: png.height}, opts.quality).data);
     }
 }

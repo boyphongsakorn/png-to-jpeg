@@ -31,16 +31,15 @@
   },
   "homepage": "https://github.com/marekventur/png-to-jpeg#readme",
   "devDependencies": {
-    "ava": "^0.16.0",
-    "babel-eslint": "^7.0.0",
-    "eslint": "^3.0.0",
-    "eslint-plugin-babel": "^3.2.0",
-    "is-jpg": "^1.0.0"
+    "ava": "^4.3.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.21.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "is-jpg": "^3.0.0"
   },
   "dependencies": {
-    "pify": "^2.3.0",
-    "jpeg-js": "^0.2.0",
-    "png-js": "^0.1.1"
+    "jpeg-js": "^0.4.4",
+    "png-js": "^1.0.0"
   },
   "files": [
     "index.js"
