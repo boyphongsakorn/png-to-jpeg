@@ -26,9 +26,9 @@ test("accepts a quality parameter", async (t) => {
   t.true(bufferOut50.length < bufferOut100.length);
 });
 
-test("throws error if quality parameter is not valid", (t) => {
+// test("throws error if quality parameter is not valid", (t) => {
   // t.throws(convert({ quality: "50" }), /only accepts integers/);
   // t.throws(convert({ quality: 40.2 }), /only accepts integers/);
   // t.throws(convert({ quality: 0 }), /between 1-100/);
   // t.throws(convert({ quality: 101 }), /between 1-100/);
-});
+// }); 
