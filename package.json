@@ -1,6 +1,6 @@
 {
-  "name": "png-to-jpeg",
-  "version": "1.0.1",
+  "name": "bp-png-to-jpeg",
+  "version": "1.0.7",
   "description": "A imagemin-compatible png-to-jpeg converter",
   "main": "index.js",
   "scripts": {
