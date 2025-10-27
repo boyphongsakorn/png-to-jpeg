@@ -4,7 +4,7 @@
   "description": "A imagemin-compatible png-to-jpeg converter",
   "main": "index.cjs",
   "scripts": {
-    "pretest": "eslint index.js test/*.js --fix",
+    "pretest": "eslint index.mjs test/*.js --fix",
     "test": "ava"
   },
   "engines": {
