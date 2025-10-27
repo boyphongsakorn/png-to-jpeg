@@ -1,6 +1,6 @@
 import * as fs from "fs/promises";
 import test from "ava";
-import convert from "../index.js";
+import convert from "../index.mjs";
 import isJpg from "is-jpg";
 
 let fixture;
